@@ -1,1 +1,259 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abba Sale Trading Hub</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+}
+
+header{
+    background:#0057FF;
+    color:white;
+    padding:15px;
+    text-align:center;
+}
+
+nav{
+    background:#FFD700;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    text-decoration:none;
+    color:#000;
+    font-weight:bold;
+    margin:10px;
+}
+
+section{
+    padding:40px 20px;
+}
+
+.hero{
+    text-align:center;
+    background:#0057FF;
+    color:white;
+    padding:60px 20px;
+}
+
+.btn{
+    display:inline-block;
+    background:#FFD700;
+    color:black;
+    padding:12px 20px;
+    text-decoration:none;
+    border-radius:5px;
+    margin-top:10px;
+    font-weight:bold;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    margin:15px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.plan{
+    width:300px;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+}
+
+button{
+    background:#0057FF;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    cursor:pointer;
+}
+
+.dashboard{
+    background:white;
+    border-radius:10px;
+    padding:20px;
+}
+
+footer{
+    background:#0057FF;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:15px;
+    border-radius:50%;
+    text-decoration:none;
+    font-size:20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Abba Sale Trading Hub</h1>
+<p>Your Trusted Trading Platform</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#plans">Plans</a>
+<a href="#login">Login</a>
+<a href="#register">Register</a>
+<a href="#dashboard">Dashboard</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+<h2>Welcome to Abba Sale Trading Hub</h2>
+<p>Trade Smarter. Grow Faster.</p>
+<a href="#register" class="btn">Get Started</a>
+</section>
+
+<section id="about">
+<h2>About Us</h2>
+<div class="card">
+<p>
+Abba Sale Trading Hub provides trading education,
+market analysis, trading signals and portfolio tracking
+for traders worldwide.
+</p>
+</div>
+</section>
+
+<section id="plans">
+<h2 align="center">Trading Plans</h2>
+
+<div class="cards">
+
+<div class="card plan">
+<h3>Starter</h3>
+<p>Deposit: $50 - $199</p>
+<p>Market-Based Trading</p>
+</div>
+
+<div class="card plan">
+<h3>Silver</h3>
+<p>Deposit: $200 - $999</p>
+<p>Advanced Trading Access</p>
+</div>
+
+<div class="card plan">
+<h3>Gold</h3>
+<p>Deposit: $1000+</p>
+<p>Premium Trading Features</p>
+</div>
+
+</div>
+</section>
+
+<section id="login">
+<h2>Login</h2>
+
+<div class="card">
+<input type="email" placeholder="Email">
+<input type="password" placeholder="Password">
+<button onclick="alert('Demo Login')">Login</button>
+</div>
+</section>
+
+<section id="register">
+<h2>Register</h2>
+
+<div class="card">
+<input type="text" placeholder="Full Name">
+<input type="email" placeholder="Email">
+<input type="password" placeholder="Password">
+<button onclick="alert('Demo Registration')">Register</button>
+</div>
+</section>
+
+<section id="dashboard">
+<h2>Dashboard</h2>
+
+<div class="dashboard">
+<h3>Account Summary</h3>
+
+<p><strong>Balance:</strong> $10,000</p>
+<p><strong>Profit:</strong> $1,250</p>
+<p><strong>Referral Earnings:</strong> $300</p>
+
+<br>
+
+<h3>Trading Signals</h3>
+
+<ul>
+<li>BUY XAUUSD</li>
+<li>SELL USDJPY</li>
+<li>BUY EURUSD</li>
+</ul>
+
+<br>
+
+<button onclick="deposit()">Deposit</button>
+<button onclick="withdraw()">Withdraw</button>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact Us</h2>
+
+<div class="card">
+<p>Email: abbabayou001@gmail.com</p>
+<p>Phone: 08103002797</p>
+<p>WhatsApp: 08103002797</p>
+<p>Location: Abuja, Nigeria</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Abba Sale Trading Hub. All Rights Reserved.</p>
+</footer>
+
+<a class="whatsapp"
+href="https://wa.me/2348103002797"
+target="_blank">💬</a>
+
+<script>
+function deposit(){
+    alert("Deposit page coming soon.");
+}
+
+function withdraw(){
+    alert("Withdrawal page coming soon.");
+}
+</script>
+
+</body>
+  </html>
